@@ -1,0 +1,10 @@
+# Dart build output
+build/
+
+# Pub packages
+.dart_tool/
+.pub/
+
+# IDE files
+.idea/
+*.iml
