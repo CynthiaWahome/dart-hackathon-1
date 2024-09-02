@@ -1,11 +1,10 @@
-```markdown
 # Dart Hackathon Submission
 
 ## Overview
 This repository presents solutions for the Dart Hackathon, demonstrating the application of various Dart programming concepts. The project includes implementations for a basic calculator, palindrome checker, and sorting algorithms. Each solution is accompanied by appropriate tests to ensure functionality and correctness.
 
 ## Project Structure
-```
+```plaintext
 dart-hackathon-1/
 │
 ├── lib/
