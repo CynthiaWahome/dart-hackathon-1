@@ -1,21 +1,81 @@
-# HACKATHON-REPO---DART
+```markdown
+# Dart Hackathon Submission
 
-**COMPLETE THE TASKS BELOW**
+## Overview
+This repository presents solutions for the Dart Hackathon, demonstrating the application of various Dart programming concepts. The project includes implementations for a basic calculator, palindrome checker, and sorting algorithms. Each solution is accompanied by appropriate tests to ensure functionality and correctness.
 
-**Palindrome Checker**
-Task: Write a Dart function that checks whether a given string is a palindrome. The function should ignore spaces, punctuation, and be case-insensitive.
-Bonus Points: Extend the function to check palindrome properties for numeric inputs as well.
-Objective: Test string manipulation, logic implementation, and handling edge cases.
- 
-**Sorting Algorithm Implementation**
-Task: Write a Dart function that implements a sorting algorithm (e.g., Quick Sort, Merge Sort, or Bubble Sort) to sort a list of integers. The function should return the sorted list.
-Bonus Points: Implement two different sorting algorithms and compare their performance in terms of execution time.
-Objective: Test understanding of algorithmic complexity and the ability to implement and optimize sorting algorithms.
+## Project Structure
+```
+dart-hackathon-1/
+│
+├── lib/
+│   ├── calculator.dart          # Implementation of basic and multi-step calculator functions.
+│   ├── palindromes.dart          # Function to check for palindromes in strings and numeric inputs.
+│   └── sorting_algorithms.dart  # Implementations of Bubble Sort and Quick Sort algorithms.
+│
+├── test/
+│   ├── calculator_test.dart      # Tests for calculator functions.
+│   ├── palindromes_test.dart      # Tests for palindrome checking functions.
+│   └── sorting_algorithms_test.dart # Tests for sorting algorithms.
+│
+├── pubspec.yaml                  # Contains project dependencies and metadata.
+├── pubspec.lock                  # Ensures consistent dependency versions.
+└── .gitignore                    # Specifies files and directories to be ignored by Git.
 
-**Basic Calculator Function**
-Task: Implement a Dart function that takes two numbers and a mathematical operator (+, -, *, /, %) as input and returns the calculated result. The function should handle basic arithmetic operations.
-Bonus Points: Extend the function to handle multi-step operations and include error handling for division by zero.
-Objective: Evaluate proficiency in conditional statements, arithmetic operations, and error handling.
+## Installation
 
-**SUBMISSION**
-Kindly submit your repositories here https://forms.gle/SSRgzRJJvGcHK6ZY6
+### Clone the Repository
+```bash
+git clone https://github.com/CynthiaWahome/dart-hackathon-1.git
+cd dart-hackathon-1
+```
+
+### Install Dependencies
+```bash
+dart pub get
+```
+
+## Usage
+
+### Running the Code
+To execute the Dart code directly, use the following commands:
+```bash
+dart run lib/calculator.dart
+dart run lib/palindromes.dart
+dart run lib/sorting_algorithms.dart
+```
+
+### Running Tests
+To run the tests and validate that all functionalities work as expected:
+```bash
+dart test
+```
+
+## Solutions
+
+### Basic Calculator
+- **File:** `lib/calculator.dart`
+- **Description:** Implements basic arithmetic operations (`+`, `-`, `*`, `/`, `%`) and supports multi-step calculations. Includes error handling for division by zero.
+
+### Palindrome Checker
+- **File:** `lib/palindromes.dart`
+- **Description:** Provides functions to check if a given string or numeric input is a palindrome. The function ignores spaces, punctuation, and is case-insensitive.
+
+### Sorting Algorithms
+- **File:** `lib/sorting_algorithms.dart`
+- **Description:** Implements two sorting algorithms:
+  - **Bubble Sort**
+  - **Quick Sort**
+
+## Testing
+The test files are located in the `test/` directory and cover the functionalities of each solution:
+- **File:** `test/calculator_test.dart`
+- **File:** `test/palindromes_test.dart`
+- **File:** `test/sorting_algorithms_test.dart`
+
+## Contribution
+For any issues, improvements, or contributions, please open an issue or submit a pull request on the [GitHub repository](https://github.com/CynthiaWahome/dart-hackathon-1).
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```
