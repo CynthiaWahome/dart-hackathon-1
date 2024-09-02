@@ -20,7 +20,7 @@ dart-hackathon-1/
 ├── pubspec.yaml                  # Contains project dependencies and metadata.
 ├── pubspec.lock                  # Ensures consistent dependency versions.
 └── .gitignore                    # Specifies files and directories to be ignored by Git.
-
+```
 ## Installation
 
 ### Clone the Repository
